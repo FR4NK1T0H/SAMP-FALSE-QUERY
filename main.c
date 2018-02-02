@@ -19,25 +19,16 @@ char query70[15];
 char query63[11];
 
 int portsrv = 7777; // <----- AQUI PONEMOS EL PUERTO DE NUESTRO SERVIDOR
- char *iprecv;
- char *portdst;
-char modesrv[] = "Rol en espa9ol"; // <---------- AQUI PONEMOS EL NOMBRE DEL GM
-char namesrv[] = "[Â»] City World Roleplay | Perfeccionando el Rol[Â«]"; // <----- AQUI EL NOMBRE DEL SERVIDOR
-char lenguage[] = "Espa9ol - Spanish"; // <------- LENGUAJE DEL SERVIDOR
-    int numbytex = 0;
-int playerson = 100;  // <----------- PODEMOS EDITAR LOS USUARIOS QUE QUEREMOS QUE APAREZCAN "ON" (no hace falta que haya$
-int maxplayers = 600; // <------------- USUARIOS MAXIMOS
-
- /*
 char modesrv[] = "FSAMP"; // <---------- AQUI PONEMOS EL NOMBRE DEL GM
 char namesrv[] = "[RP] Frankito/wachichorro roleplay"; // <----- AQUI EL NOMBRE DEL SERVIDOR
-char lenguage[] = "Arg villero"; // <------- LENGUAJE DEL SERVIDOR
-    int numbytex = 0;
+char lenguage[] = "Espa9ol"; // <------- LENGUAJE DEL SERVIDOR
 int playerson = 200;  // <----------- PODEMOS EDITAR LOS USUARIOS QUE QUEREMOS QUE APAREZCAN "ON" (no hace falta que haya nadie para que funcione)
-int maxplayers = 200; // <------------- USUARIOS MAXIMOS */
+int maxplayers = 200; // <------------- USUARIOS MAXIMOS 
+
 char byteips[4];
-
-
+int numbytex = 0;
+ char *iprecv;
+ char *portdst;
  
 void processpacket(char *h, char *i)
 {
